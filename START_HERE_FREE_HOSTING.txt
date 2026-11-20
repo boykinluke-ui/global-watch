@@ -1,0 +1,16 @@
+START HERE — FREE ONLINE EDITION
+
+This version is designed to live online and refresh once each day without your computer running. It uses GitHub Pages and GitHub Actions. For GitHub Free, the repository must be public, so the bundled code and data become public when you upload it. Check the dataset reuse note in README.txt before you publish.
+
+You do not need Python, PowerShell, or a .BAT file.
+
+1. Install GitHub Desktop: https://desktop.github.com/ and sign into a free GitHub account.
+2. On github.com, create a PUBLIC repository named global-watch.
+3. In GitHub Desktop, clone that repository. Copy every file in this project folder into the cloned folder. Commit the files, then choose Push origin.
+4. On GitHub.com, open the repository: Settings → Pages → Build and deployment → Source: GitHub Actions.
+5. Open Actions → Refresh Global Watch data → Run workflow. Wait for the workflow to finish successfully.
+6. Go back to Settings → Pages and open the published site address. That is the link to bookmark and share.
+
+After the first successful run, GitHub attempts a daily refresh at 12:17 UTC (6:17 a.m. Central in winter, 7:17 a.m. Central in summer). GitHub may run scheduled jobs late. Check the Actions page if the site looks stale; you can click Run workflow for an extra attempt.
+
+The schedule refreshes selected public feeds, not every dataset. See README.txt and DATA_COVERAGE_AND_ACCESS.txt for exactly what runs, what is a dated snapshot, and what is not connected.

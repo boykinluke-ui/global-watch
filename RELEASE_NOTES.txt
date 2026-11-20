@@ -1,0 +1,12 @@
+THE GLOBAL WATCH 1.6.12 — FREE DAILY EDITION
+
+• Added a no-cost GitHub Actions daily refresh and GitHub Pages publishing workflow.
+• Added a read-only static data bridge so map, dossiers, research, sources and briefings can work without a paid application server.
+• Carries prior refresh results forward between scheduled builds using a public static state file.
+• Refresh cadence: GDELT and UN Geneva public feeds daily; World Bank and UNHCR weekly; ReliefWeb optional and disabled unless configured.
+• Adds truthful hosted-static schedule and run-state messaging.
+• Removed paid Render deployment files and confusing old launch scripts from this free-hosted package.
+• Existing local browser storage remains visitor-local and does not sync.
+
+LIMITATIONS
+The application is public and read-only when hosted this way; it is not a secure multi-user system. Scheduled GitHub runs can be delayed and may be disabled after long repository inactivity. A daily collector attempt does not mean every source has fresh data each day. Dataset redistribution terms must be checked before pushing the bundled data to a public repository.

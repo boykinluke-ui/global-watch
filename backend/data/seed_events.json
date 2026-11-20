@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "ocha_opt",
+    "title": "Gaza: flooding compounds humanitarian emergency and damages shelters",
+    "country": "Palestine",
+    "country_code": "PSE",
+    "event_date": "2026-11-13",
+    "published_at": "2026-11-13",
+    "url": "https://www.ochaopt.org/content/humanitarian-situation-report-13-november-2026",
+    "summary": "OCHA reported on 13 November 2026 that flooding affected about 46,000 households and damaged more than 40,000 family shelters in Gaza; health, education and protection services faced additional strain. This is a dated situation report, not a real-time field update.",
+    "category": "humanitarian"
+  },
+  {
+    "source_id": "acaps",
+    "title": "Gaza: reported strike damaged Nasser medical complex",
+    "country": "Palestine",
+    "country_code": "PSE",
+    "event_date": "2026-11-11",
+    "published_at": "2026-11-19",
+    "url": "https://www.acaps.org/en/countries/palestine",
+    "summary": "ACAPS country update dated 19 November 2026 reported that an 11 November air strike on Nasser medical complex in Khan Younis killed six people and damaged clinical areas, disrupting essential care. Attribute this summary to ACAPS and verify against original reporting before operational use.",
+    "category": "humanitarian"
+  },
+  {
+    "source_id": "iirf",
+    "title": "IIRF yearbook editors assess religious freedom as worse or persistently bad",
+    "country": null,
+    "country_code": null,
+    "event_date": "2026-11-04",
+    "published_at": "2026-11-04",
+    "url": "https://iirf.global/news/iirf-updates/2026-brought-no-improvement-for-persecuted-christians-or-for-religious-freedom/",
+    "summary": "The International Institute for Religious Freedom reported that its 2026 yearbook editors assessed global religious-freedom conditions as worse to persistently bad, highlighting deterioration in Iran, Pakistan, Egypt, China and Cuba. This is the institute editors’ assessment; consult the yearbooks for underlying country evidence.",
+    "category": "religious_freedom"
+  },
+  {
+    "source_id": "wycliffe_uk",
+    "title": "Global Scripture access snapshot: 3,158 languages have no Scripture",
+    "country": null,
+    "country_code": null,
+    "event_date": "2026-11-05",
+    "published_at": "2026-11-05",
+    "url": "https://wycliffe.org.uk/statistics/",
+    "summary": "Wycliffe UK’s November 2026 ProgressBible snapshot reports 7,389 known languages, 810 with a full Bible, 1,868 with a New Testament, 1,553 with Scripture portions, 4,351 with translation work in progress, and 558 vital languages with no Scripture and no work yet underway. These are snapshot categories and publisher-specific definitions; they must not be added together across overlapping categories.",
+    "category": "scripture_access"
+  },
+  {
+    "source_id": "cbn",
+    "title": "Deaf-led Bible translation training workshops held in Guinea-Bissau and Central African Republic",
+    "country": "Guinea-Bissau",
+    "country_code": "GNB",
+    "event_date": "2026-04-01",
+    "published_at": "2026-11-12",
+    "url": "https://cbn.com/news/world/completion-bible-translation-within-reach-global-church-steps",
+    "summary": "CBN reported on workshops facilitated by Oasis Network for Community Transformation in Guinea-Bissau and the Central African Republic, with more than 100 Deaf trainees at each two-week workshop. The initiative highlights Deaf communities training to translate Scripture into their own sign languages. This is a reported ministry development; verify project status with the implementing partners.",
+    "category": "church_missions"
+  },
+  {
+    "source_id": "united_bible_societies",
+    "title": "New Swedish New Testament translation launched at Gothenburg Book Fair",
+    "country": "Sweden",
+    "country_code": "SWE",
+    "event_date": "2026-09-24",
+    "published_at": "2026-11-16",
+    "url": "https://unitedbiblesocieties.org/stories-updates/",
+    "summary": "United Bible Societies reported that the Swedish Bible Society launched NT 2026 at the Gothenburg Book Fair on 24 September 2026, five centuries after the first printed Swedish New Testament. A positive Scripture and language development.",
+    "category": "scripture_access"
+  },
+  {
+    "source_id": "united_bible_societies",
+    "title": "Albanian Bible Society uses sport to connect with children and young people",
+    "country": "Albania",
+    "country_code": "ALB",
+    "event_date": "2026-11-10",
+    "published_at": "2026-11-10",
+    "url": "https://unitedbiblesocieties.org/stories-updates/",
+    "summary": "United Bible Societies highlighted the Interconfessional Bible Society of Albania using sport to bring children and young people together. This is a ministry story from the publisher; the source page provides a summary and should be followed for project detail.",
+    "category": "church_missions"
+  },
+  {
+    "source_id": "oidac",
+    "title": "OIDAC reports 2,465 anti-Christian hate crimes and incidents in Europe in 2025",
+    "country": "France",
+    "country_code": "FRA",
+    "event_date": "2025-12-31",
+    "published_at": "2026-11-16",
+    "url": "https://www.intoleranceagainstchristians.eu/resources/reports/oidac-report-2026",
+    "summary": "OIDAC Europe’s 2026 report identified 2,465 anti-Christian hate crimes and incidents in Europe in 2025, based on national government reports and OSCE/ODIHR data. It reported at least 395 attacks on individuals. Cross-country comparisons require caution because national recording practices differ.",
+    "category": "religious_freedom"
+  },
+  {
+    "source_id": "persecution_monitor",
+    "title": "Weekly persecution monitor identifies incidents across three countries",
+    "country": null,
+    "country_code": null,
+    "event_date": "2026-11-18",
+    "published_at": "2026-11-18",
+    "url": "https://persecutionmonitor.com/briefing?period=week",
+    "summary": "Persecution Monitor’s weekly briefing for 12–19 November 2026 reported four incidents across three countries and described cases in Palestine and Pakistan. Its methodology aggregates public news reports; totals may understate incidents and should be corroborated before publication as verified facts.",
+    "category": "religious_freedom"
+  },
+  {
+    "source_id": "bible_gateway",
+    "title": "Sudan archaeology: researchers reach floor of medieval Christian cathedral in Old Dongola",
+    "country": "Sudan",
+    "country_code": "SDN",
+    "event_date": "2026-11-16",
+    "published_at": "2026-11-03",
+    "url": "https://classic.biblegateway.com/learn/news/november-2026-bible-news/",
+    "summary": "A November 2026 Bible news roundup reported that archaeologists reached the original floor of the Great Church of Jesus in Old Dongola, a major medieval Nubian Christian site. The report attributes the discovery to archaeological work; consult the linked original reporting for specialist context.",
+    "category": "church_missions"
+  }
+]

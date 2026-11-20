@@ -1,0 +1,17 @@
+DATA COVERAGE AND ACCESS — FREE DAILY EDITION
+
+REFRESH ATTEMPTS
+• GDELT: public event/news search API; attempted daily. Results are leads, not independently verified reporting.
+• UN Geneva: public RSS feed(s); attempted daily. Feed availability and publication cadence vary.
+• World Bank Indicators API v2: no key; attempted weekly on Monday. Annual series retain their own observation years.
+• UNHCR Refugee Statistics API: no key; attempted weekly on Monday. Origin/asylum categories and years are distinct; totals may overlap.
+• ReliefWeb: optional; disabled unless an approved app name is configured as a GitHub Actions secret.
+
+BUNDLED / SNAPSHOT DATA
+The database contains dated country reference profiles, religious composition estimates, IMB / PeopleGroups.org records, Open Doors World Watch List 2026 records, curated research, and existing World Bank / UNHCR observations. These records are not refreshed daily merely because the site is rebuilt. Source dates and definitions vary. People-group records are source-specific classifications, not complete population counts or a recommendation to travel.
+
+NOT CONNECTED
+Joshua Project API, ProgressBible partner data/API, ACLED, authenticated sources, and private ministry datasets. Do not describe them as integrations in this release.
+
+CHECK BEFORE REDISTRIBUTION
+The user is responsible for confirming license, attribution, and reuse rights before publishing the bundled data. Pay particular attention to Pew / Our World in Data-derived religious composition records, IMB / PeopleGroups.org data, and Open Doors ranking content. A public GitHub repository exposes both code and files; this package does not override publisher terms.

@@ -1,0 +1,46 @@
+[
+  {
+    "lane": "scripture_access",
+    "subject": "Global Scripture Access Snapshot — November 2026",
+    "summary": "Wycliffe UK, citing the ProgressBible Snapshot (November 2026), reports 7,389 known languages; 810 full Bibles; 1,868 New Testaments; 1,553 Scripture portions; 4,351 languages with translation work in progress; and 558 vital languages with no Scripture and no work yet underway. These are mutually described publisher categories and a snapshot, not a country-by-country allocation. Wycliffe notes that the 558 figure excludes languages with insufficient vitality to sustain translation.",
+    "source_name": "Wycliffe Bible Translators UK / ProgressBible",
+    "source_url": "https://wycliffe.org.uk/statistics/",
+    "publication_date": "2026-11-05",
+    "evidence_type": "reported",
+    "confidence": "single_source",
+    "methodology": "ProgressBible Snapshot, November 2026 as cited by Wycliffe UK. Language categories and vitality definitions matter; do not infer practical comprehension or individual access from translation status alone."
+  },
+  {
+    "lane": "people_group",
+    "subject": "Joshua Project people-group data access and limitations",
+    "summary": "Joshua Project publishes downloadable country, people-group and language datasets and offers a live API after a free API-key request. Its own guidance says values vary in accuracy, population figures may be scaled, evangelical and Christian-adherent percentages are estimates, and blanks can indicate unknown values. The dataset is not imported in this release because its CSV downloads are not accessible in this execution environment and API access requires a key.",
+    "source_name": "Joshua Project",
+    "source_url": "https://joshuaproject.net/resources/datasets",
+    "publication_date": "2026-11-19",
+    "evidence_type": "reported",
+    "confidence": "single_source",
+    "methodology": "Publisher documentation and data-use disclaimers; full country/people-group import requires acquiring and validating the downloadable data or API key."
+  },
+  {
+    "lane": "religious_freedom",
+    "subject": "Open Doors World Watch List 2026 methodology",
+    "summary": "Open Doors’ 2026 World Watch List assesses 150 countries and ranks the 50 countries where Christians face the most extreme persecution. Its research period is 1 October 2024 to 30 September 2025. The framework measures pressure in private, family, community, national and church life plus violence. The ranking is a Christian-persecution lens, not a comprehensive measure of religious freedom for all groups.",
+    "source_name": "Open Doors Research",
+    "source_url": "https://www.opendoorsus.org/persecution/methodology",
+    "publication_date": "2026",
+    "evidence_type": "reported",
+    "confidence": "single_source",
+    "methodology": "Open Doors World Watch Research methodology; use alongside other religious freedom and human rights datasets."
+  },
+  {
+    "lane": "church_missions",
+    "subject": "Deaf-led Scripture translation and global Church participation",
+    "summary": "A November 2026 CBN report describes Deaf trainees in Guinea-Bissau and the Central African Republic participating in sign-language Scripture translation workshops, with more than 100 trainees at each two-week workshop. The story illustrates the role of local communities as translators and mission leaders, not merely recipients.",
+    "source_name": "CBN News",
+    "source_url": "https://cbn.com/news/world/completion-bible-translation-within-reach-global-church-steps",
+    "publication_date": "2026-11-12",
+    "evidence_type": "reported",
+    "confidence": "single_source",
+    "methodology": "Secondary news report describing workshops facilitated by Oasis Network for Community Transformation; verify with implementing partners."
+  }
+]
