@@ -51,7 +51,7 @@ def fetch_previous_state() -> dict | None:
     url = previous_state_url()
     if not url:
         return None
-    req = urllib.request.Request(url, headers={"User-Agent": "TheGlobalWatch/1.6.12 scheduled snapshot"})
+    req = urllib.request.Request(url, headers={"User-Agent": "TheGlobalWatch/1.6.14 scheduled snapshot"})
     try:
         with urllib.request.urlopen(req, timeout=30) as response:
             payload = json.loads(response.read().decode("utf-8"))

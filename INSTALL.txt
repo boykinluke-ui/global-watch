@@ -1,0 +1,12 @@
+GLOBAL WATCH 1.6.14 · PATCH INSTALL
+
+This is a patch for the existing global-watch repository, not a complete replacement application.
+
+1. Unzip this package.
+2. Copy the included files and folders into the matching locations in your cloned global-watch repository. Allow replacement of matching files.
+3. In GitHub Desktop, review the changed files, enter a summary such as “Improve mobile navigation and snapshot refresh,” click Commit to main, then Push origin.
+4. In GitHub, open Actions → Refresh Global Watch data → Run workflow. Wait for the Pages deployment job to finish successfully before opening the public site.
+
+Files in this patch: web/index.html, web/static_api.js, README.txt, RELEASE_NOTES.txt, scripts/update_and_export.py.
+
+After deployment, check Settings → Pages for the published URL. “Check for updates” reloads the latest published snapshot; it does not force GitHub Actions to collect immediately. Visitor drafts remain on that browser/device and do not sync to other visitors.

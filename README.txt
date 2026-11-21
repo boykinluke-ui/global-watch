@@ -1,4 +1,4 @@
-THE GLOBAL WATCH 1.6.12 — FREE DAILY EDITION
+THE GLOBAL WATCH 1.6.14 — FREE DAILY EDITION
 
 WHAT THIS IS
 A browser-based, read-only website with a free scheduled data refresh. After you publish it once, GitHub Actions runs the update job daily without your computer being on. A free public GitHub repository and public website are required for GitHub Pages on GitHub Free.
@@ -20,9 +20,17 @@ ONE-TIME SETUP (NO CODING OR POWERSHELL)
 IMPORTANT DATA-PUBLISHING REVIEW
 Publishing to a public repository makes the bundled database and research files public. Before pushing, verify reuse terms for every included dataset. The database includes Pew / Our World in Data-derived religious-composition observations; Pew terms may restrict reproducing an entire or substantial dataset. Obtain permission or remove/replace those records before public release if the applicable terms do not allow redistribution. Check IMB / PeopleGroups.org and Open Doors attribution and reuse terms as well. This package preserves the source labels and limitations, but cannot grant data rights.
 
+NEW START, PARTNER & TRAVEL WORKSPACE
+• The ministry directory now includes 14 editorial profiles, each linking to official organization information. Added Global Frontier Missions, Mission to the World, Ethnos360 and World Relief. These are starting points, not endorsements or confirmed openings.
+• The trip desk helps groups prepare route searches, compare flights and lodging through external providers, and coordinate the host-approved itinerary. It does not sell tickets, hold live pricing, or guarantee a booking. Confirm airport, dates, lodging and transport with the field host before paying.
+• The Mission Network workspace can prepare a profile, trip story, testimony, field update or partnership request. Photo/video previews and profile/post drafts are visitor-controlled; nothing is uploaded to a shared feed. Sharing opens the visitor’s device share sheet only after they confirm consent. Browser storage limits are handled with a clear warning and a copyable draft fallback.
+• The hosted site checks for the latest published snapshot when its data files are requested. “Check for updates” reloads the current published snapshot; it does not start a new collection run.
+
 WHAT USERS CAN AND CANNOT DO
 • Visitors can explore the map, country dossiers, research, prayer and Bible pages.
 • Each visitor’s saved countries, notes and prayer journal remain in that visitor’s browser on that device. They do not sync or become shared accounts.
+• Mission Network profiles and story text drafts also remain in that visitor’s browser on that device. Selected media files are not retained after the page session. Nothing syncs between visitors or devices in this release.
+• Public research data is rebuilt into a GitHub Pages artifact by the scheduled workflow; successful deployment publishes that snapshot to visitors. The refresh attempt does not guarantee that every source returned newer observations.
 • This static edition has no shared editing, secure multi-user accounts, server-side private journals, or server API for visitor-triggered collection.
 • The source data can be inspected in the public repository and the published site’s public data files.
 

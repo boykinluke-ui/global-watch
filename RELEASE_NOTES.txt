@@ -1,12 +1,17 @@
-THE GLOBAL WATCH 1.6.12 — FREE DAILY EDITION
+THE GLOBAL WATCH 1.6.14 — FREE DAILY EDITION
 
-• Added a no-cost GitHub Actions daily refresh and GitHub Pages publishing workflow.
-• Added a read-only static data bridge so map, dossiers, research, sources and briefings can work without a paid application server.
-• Carries prior refresh results forward between scheduled builds using a public static state file.
-• Refresh cadence: GDELT and UN Geneva public feeds daily; World Bank and UNHCR weekly; ReliefWeb optional and disabled unless configured.
-• Adds truthful hosted-static schedule and run-state messaging.
-• Removed paid Render deployment files and confusing old launch scripts from this free-hosted package.
-• Existing local browser storage remains visitor-local and does not sync.
+• Added a two-way Start & Partner pathway for newcomers, ministries and field workers.
+• Expanded the ministry directory from 10 to 14 profiles with official links for Global Frontier Missions, Mission to the World, Ethnos360 and World Relief. Summaries are starting points, not endorsements or confirmed vacancies.
+• Added a mobile-first Mission Network workspace for profile drafts, trip stories, field updates, testimonies, partnership requests and session-only photo/video previews. Sharing uses the visitor’s own device share sheet; posts do not publish to a shared feed.
+• Added a group travel desk with host-confirmation guidance, a persistent local trip checklist, flight/hotel/package search links and a shareable trip brief. It does not provide live fares or book travel.
+• Fixed a malformed mobile navigation link, made the section bar swipeable on phones, and enabled browser back/forward across app sections.
+• Hardened private draft saving when browser storage is disabled or full, and made the static site revalidate published data files when checking for updates.
+• Improved the mobile pathway layout and made the distinction between public data refreshes and visitor-local drafts explicit.
+
+DATA AND SYNC
+• The published research snapshot is rebuilt by GitHub Actions: GDELT and configured UN Geneva feeds are attempted daily; World Bank and UNHCR are attempted weekly. A scheduled attempt does not mean every source has new data.
+• Personal watchlists, prayer notes, checklists, profile drafts and story drafts remain local to one browser/device. They do not sync across accounts or visitors.
+• This GitHub Pages edition has no member accounts, shared profile directory, public post feed, moderation queue, or media-upload service.
 
 LIMITATIONS
-The application is public and read-only when hosted this way; it is not a secure multi-user system. Scheduled GitHub runs can be delayed and may be disabled after long repository inactivity. A daily collector attempt does not mean every source has fresh data each day. Dataset redistribution terms must be checked before pushing the bundled data to a public repository.
+The application is public and read-only for hosted data. Scheduled GitHub runs can be delayed and may be disabled after long repository inactivity. The site is not a complete country assessment or a live mission-opening feed. Review source definitions, dates, safety guidance, local leadership, safeguarding and data reuse terms before acting or republishing.

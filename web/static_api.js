@@ -4,16 +4,16 @@
   let runtimePromise;
   let indicatorPromise;
   const groupPromises = new Map();
-  const loadRuntime = () => runtimePromise ||= fetch(new URL('current.json', root)).then(r => {
+  const loadRuntime = () => runtimePromise ||= fetch(new URL('current.json', root), {cache: 'no-cache'}).then(r => {
     if (!r.ok) throw new Error(`Static data unavailable (${r.status})`);
     return r.json();
-  });
+  }).catch(error => { runtimePromise = undefined; throw error; });
   const loadGroups = (code) => {
-    if (!groupPromises.has(code)) groupPromises.set(code, fetch(new URL(`people_groups/${code}.json`, root)).then(r => {
+    if (!groupPromises.has(code)) groupPromises.set(code, fetch(new URL(`people_groups/${code}.json`, root), {cache: 'no-cache'}).then(r => {
       if (r.status === 404) return [];
       if (!r.ok) throw new Error(`People-group data unavailable (${r.status})`);
       return r.json();
-    }));
+    }).catch(error => { groupPromises.delete(code); throw error; }));
     return groupPromises.get(code);
   };
   const json = (value) => Promise.resolve(value);
@@ -60,10 +60,10 @@
     }
     if (p === '/api/indicators') {
       const code = q.get('country_code');
-      indicatorPromise ||= fetch(new URL('indicators.json', root)).then(r => {
+      indicatorPromise ||= fetch(new URL('indicators.json', root), {cache: 'no-cache'}).then(r => {
         if (!r.ok) throw new Error(`Indicator snapshot unavailable (${r.status})`);
         return r.json();
-      });
+      }).catch(error => { indicatorPromise = undefined; throw error; });
       let rows = await indicatorPromise;
       if (code) rows = rows.filter(x => x.country_code === code.toUpperCase());
       return {count: rows.length, indicators: rows.slice(0, Math.min(Number(q.get('limit') || 100), 500))};
